@@ -52,6 +52,15 @@ markdown_extensions:
 
 nav:
   - 入门: index.md
+  - 基础知识:
+      - 概览: basics/index.md
+      - 网络基础: basics/network-basics.md
+      - 封锁与审查原理: basics/how-blocking-works.md
+      - 代理协议科普: basics/protocols.md
+      - 节点质量判断: basics/node-quality.md
+      - 机房 IP vs 住宅 IP: basics/ip-types.md
+      - 节点保护与安全: basics/node-security.md
+      - 隐私与泄漏防护: basics/privacy.md
   - Windows:
       - 概览: windows/index.md
       - Clash Verge Rev:
