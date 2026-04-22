@@ -1,0 +1,97 @@
+site_name: 帮助中心
+site_description: 全平台科普教学帮助文档
+site_author: Your Name
+site_url: https://docs.yoursite.com
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - 入门: index.md
+  - Windows:
+      - 概览: windows/index.md
+      - Clash Verge Rev:
+          - 快速开始: windows/clash-verge/quick-start.md
+          - 常见问题: windows/clash-verge/faq.md
+      - v2rayN:
+          - 快速开始: windows/v2rayn/quick-start.md
+          - 常见问题: windows/v2rayn/faq.md
+  - macOS:
+      - 概览: macos/index.md
+      - Clash Verge Rev:
+          - 快速开始: macos/clash-verge/quick-start.md
+          - 常见问题: macos/clash-verge/faq.md
+      - Sing Box:
+          - 快速开始: macos/singbox/quick-start.md
+      - Shadowrocket:
+          - 快速开始: macos/shadowrocket/quick-start.md
+  - Android:
+      - 概览: android/index.md
+      - Clash Meta (ClashMi):
+          - 快速开始: android/clashmi/quick-start.md
+          - 常见问题: android/clashmi/faq.md
+      - Sing Box:
+          - 快速开始: android/singbox/quick-start.md
+          - 常见问题: android/singbox/faq.md
+  - iOS / iPadOS:
+      - 概览: ios/index.md
+      - Sing Box:
+          - 快速开始: ios/singbox/quick-start.md
+          - 常见问题: ios/singbox/faq.md
+      - Shadowrocket:
+          - 快速开始: ios/shadowrocket/quick-start.md
+          - 常见问题: ios/shadowrocket/faq.md
+  - OpenWrt:
+      - 概览: openwrt/index.md
+      - OpenClash:
+          - 快速开始: openwrt/openclash/quick-start.md
+          - 常见问题: openwrt/openclash/faq.md
+      - Passwall2:
+          - 快速开始: openwrt/passwall2/quick-start.md
+          - 常见问题: openwrt/passwall2/faq.md
+  - 词汇表: glossary/index.md
+  - 常见问题: faq/index.md
