@@ -8,45 +8,45 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-windows: **Windows**
+-   🪟 **Windows**
 
     ---
 
     适用于 Windows 10 / 11 的 x86 和 x64 客户端
 
-    [:octicons-arrow-right-24: 前往 Windows 教程](windows/index.md)
+    [→ 前往 Windows 教程](windows/index.md)
 
--   :fontawesome-brands-apple: **macOS**
+-   🍎 **macOS**
 
     ---
 
     适用于 Intel 和 Apple Silicon (M 系列) 的客户端
 
-    [:octicons-arrow-right-24: 前往 macOS 教程](macos/index.md)
+    [→ 前往 macOS 教程](macos/index.md)
 
--   :fontawesome-brands-android: **Android**
+-   🤖 **Android**
 
     ---
 
     适用于大多数基于 Android 的手机和平板设备
 
-    [:octicons-arrow-right-24: 前往 Android 教程](android/index.md)
+    [→ 前往 Android 教程](android/index.md)
 
--   :fontawesome-brands-apple: **iOS / iPadOS**
+-   📱 **iOS / iPadOS**
 
     ---
 
     专为 iPhone 和 iPad 设计的客户端
 
-    [:octicons-arrow-right-24: 前往 iOS 教程](ios/index.md)
+    [→ 前往 iOS 教程](ios/index.md)
 
--   :material-router: **OpenWrt**
+-   📡 **OpenWrt**
 
     ---
 
     适用于主流路由器和软路由设备
 
-    [:octicons-arrow-right-24: 前往 OpenWrt 教程](openwrt/index.md)
+    [→ 前往 OpenWrt 教程](openwrt/index.md)
 
 </div>
 
