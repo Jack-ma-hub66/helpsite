@@ -5,7 +5,6 @@ site_url: https://netlab.decodex.cc
 
 theme:
   name: material
-  custom_dir: overrides   # CF Web Analytics 注入（overrides/main.html，2026-07-04）
   language: zh
   palette:
     - scheme: default
